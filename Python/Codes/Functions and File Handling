@@ -1,0 +1,48 @@
+#function definition
+def routine():
+    print("making breakfast...")
+    print("boiling water...")
+    print("making tea...")
+    print("eating bread...")
+
+
+routine() #function call
+
+5 + 7 
+a = 100
+print("Ulala")
+routine()
+
+def multiplication(x, y):
+    return x * y
+
+res = multiplication(int(input("Enter a number: ")), int(input("Enter another number: ")))
+print("The multiplication is:", res)
+
+
+def cube(n):
+    return n ** 3
+
+cube_res = cube(int(input("Enter a number to find its cube: ")))
+print("The cube is:", cube_res)
+
+
+def power(m,l):
+    return m ** l
+
+power_res = power(int(input("Enter a base number: ")), int(input("Enter an exponent: ")))
+print("The result is:", power_res)
+
+
+
+def hello(name):
+    print(f"Hello {name}")
+hello(input("Enter your name: "))
+
+xyz = lambda name: print(f"Hello {name}")
+
+xyz("Neel")
+
+
+sum = lambda a,b: a + b
+print("The sum is:", sum(5,6))
